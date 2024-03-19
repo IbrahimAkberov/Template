@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+
+
+body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.nav-list{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 75%;
+  margin: auto;
+    list-style:none;
+    gap: 20px;
+    
+    cursor: pointer;
+    
+
+}
+
+
+    
+     ul li a{
+        color: black;
+        text-decoration: none;
+        transition: 1s all;
+     }
+
+
+
+    
+.main-nav{
+    display: flex;
+    align-items: center;
+
+
+
+}
+.header{
+    background-image: url(https://mb-demo1.myshopify.com/cdn/shop/files/marbo-furniture-slider-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+
+.explore__button{
+    background-color:white ;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 2px;
+    margin-top: 10px;
+    transition: 2s linear;
+    
+}
+.explore__button:hover{
+    background-color: black;
+    color: #ffff;
+}
+.text-content{
+    margin-top: 150px;
+    
+}
+.hero-3{
+    font-size: 30px;
+    color: black;
+}
+.hero-2{
+    font-size: 60px;
+    color: black;
+}
+.section__3{
+   text-align: center;
+   font-size: 30px;
+   margin: 50px 0;
+}
+
+.coffe__table{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+.coffe__table img {
+    
+
+   width: 300px;
+   height: 300px;
+   gap: 25px    ;
+}
+
+.coffe__table .infos button{
+    position: relative;
+    border: 1px solid black;
+    background: white;
+    color: black;
+    width: 25px;
+    height: 25px;
+    transition: .4s all linear  transform 2s translateX(0%);
+    border-radius: 2px;
+    bottom: 50px;
+    left: 35%;
+    
+}
+
+.coffe__table .infos button:hover{
+    background-color: black;
+    color: white;
+
+}
+.coffe__table .infos button:focus{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+.middle-sc img:nth-child(1){
+    width: 600px;
+    height: 500px;
+
+
+}
+
+.middle-sc img:nth-child(2){
+    position: absolute;
+    width: 140px;
+    height: 100px;
+    border-radius: 50%;
+    
+    
+    left:450px;
+
+}
+
+.middle-sc p{
+    position: relative;
+ display: flex; 
+     bottom: 530px;
+    left: 700px;
+  
+
+    width: 600px;
+    font-weight: 600;
+    font-size: 17px;
+
+}
+/* .middle__div{
+    display: inline;
+} */
+
+.middle-sc h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 50px 0;
+ }
+
+ .little-sc h2{
+   /* display: inline; */
+    text-align: center;
+    font-size: 30px;
+    margin: 50px 0px;
+ }
+ .little__h2sc{
+   
+    position: relative;
+    top: -500px;
+    
+ }
+ .sc__3{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 510px;
+    max-width: 1300px;
+    margin :  auto;
+    padding: 70px 0px;
+
+ }
+ 
+ .section__contact{
+    text-align: center;
+    position: relative;
+    bottom: 500px;   
+    
+    font-size: 30px;
+ }
+ .form{
+    display: flex;
+    justify-content:center;
+    
+    position: relative;
+    bottom: 450px;
+    max-width: 880px;
+    margin: auto;
+    gap: 25px;
+    height: 40px;
+    
+   
+  
+   
+  
+ }
+ .form button:hover{
+    background-color: black;
+color: #ffff;
+
+ }
+ footer{
+    margin-bottom: 95px;
+ }
